@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *questionLabel;
+@property (strong, nonatomic) IBOutlet UIButton *answerButton1;
+@property (strong, nonatomic) IBOutlet UIButton *answerButton2;
+@property (strong, nonatomic) IBOutlet UIButton *answerButton3;
+
+
 @end

@@ -21,6 +21,8 @@
 		273BC2ED18A25952007F8145 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273BC2CF18A25952007F8145 /* UIKit.framework */; };
 		273BC2F518A25952007F8145 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 273BC2F318A25952007F8145 /* InfoPlist.strings */; };
 		273BC2F718A25952007F8145 /* Quiz_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 273BC2F618A25952007F8145 /* Quiz_DemoTests.m */; };
+		273BC30218A259E1007F8145 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 273BC30118A259E1007F8145 /* Question.m */; };
+		273BC30518A25A95007F8145 /* QuizModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 273BC30418A25A95007F8145 /* QuizModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		273BC2F218A25952007F8145 /* Quiz DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz DemoTests-Info.plist"; sourceTree = "<group>"; };
 		273BC2F418A25952007F8145 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		273BC2F618A25952007F8145 /* Quiz_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz_DemoTests.m; sourceTree = "<group>"; };
+		273BC30018A259E1007F8145 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		273BC30118A259E1007F8145 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		273BC30318A25A95007F8145 /* QuizModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizModel.h; sourceTree = "<group>"; };
+		273BC30418A25A95007F8145 /* QuizModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				273BC2E118A25952007F8145 /* ViewController.m */,
 				273BC2E318A25952007F8145 /* Images.xcassets */,
 				273BC2D218A25952007F8145 /* Supporting Files */,
+				273BC30018A259E1007F8145 /* Question.h */,
+				273BC30118A259E1007F8145 /* Question.m */,
+				273BC30318A25A95007F8145 /* QuizModel.h */,
+				273BC30418A25A95007F8145 /* QuizModel.m */,
 			);
 			path = "Quiz Demo";
 			sourceTree = "<group>";
@@ -250,6 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				273BC2E218A25952007F8145 /* ViewController.m in Sources */,
+				273BC30218A259E1007F8145 /* Question.m in Sources */,
+				273BC30518A25A95007F8145 /* QuizModel.m in Sources */,
 				273BC2DC18A25952007F8145 /* AppDelegate.m in Sources */,
 				273BC2D818A25952007F8145 /* main.m in Sources */,
 			);
